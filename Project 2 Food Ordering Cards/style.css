@@ -1,0 +1,26 @@
+.card{
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 16px;
+    transition: 200ms;
+    box-shadow: 2px 2px 6px 0px;
+}
+.card-img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*used for responsiveness*/
+}
+.card:hover{
+    transform:rotate(4deg) ;
+    width: 300px;
+    border-radius:16px;
+    
+}
+
