@@ -42,7 +42,7 @@ body{
 }
 .btnProject:hover{
     cursor: pointer;
-    background: radial-gradient(white,#f9c11a);
+    background:#f9c11a;
 }
 .btnProject:active{
     transform: translateY(3px);
