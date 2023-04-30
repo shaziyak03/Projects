@@ -1,0 +1,63 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+} 
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.mainHeading{
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 #f8cd4e, 0 2px 10px 0 #f8cd4e;
+    padding: 8px;
+}
+.project{
+    margin-top: 20px;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 0 2px 5px 0 #f8cd4e, 0 2px 10px 0 #f8cd4e;
+}
+.svg-icon{
+    width: 50px;
+    height: 50px;
+    fill: #f8cd4e;
+}
+
+.btnProject{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f8cd4e;
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+.btnProject:hover{
+    cursor: pointer;
+    background: radial-gradient(white,#f9c11a);
+}
+.btnProject:active{
+    transform: translateY(3px);
+}
+a.projectLink{
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.lines{
+    text-align: center;
+}
+.line1{
+    color: white;
+}
+.line2{
+    color: white;
+}
