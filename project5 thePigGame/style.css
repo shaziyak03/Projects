@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 63%;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: linear-gradient(rgb(37, 36, 36), rgb(77, 74, 74)), rgb(75, 68, 68);
+    font-family: sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+    /*color: #333;*/
+   /* background-color: #2d3439;*/
+}
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+ .name{
+    padding: 20px;
+    font-size: 50px;
+}
+.score{
+    color: rgb(200, 161, 4);
+    font-size: 90px;
+}
+ .current{
+    margin: 40px;
+    padding: 35px;
+    border-radius: 50px;
+    background-color: #2a2929;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 3px 10px grey;
+}    
+.current-label{
+    font-size: 27px;
+}
+.current-score{
+    padding: 30px;
+    font-size: 27px;
+}
+.player0{
+    background: rgb(88, 88, 88);
+}
+.player1{
+    background: rgb(63, 61, 61);
+}
+
+.dice{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 69rem;
+    top: 24em;
+}
+.btn-roll{
+    position: absolute;
+    bottom: 7em;  
+}
+.btn-new{
+    position: absolute;
+    top: 35px;
+}
+.btn-hold{
+    position: absolute;
+    bottom: 40px;
+}
+.btn{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 18px 45px;
+    border-radius: 30px;
+    background: rgb(200, 161, 4);
+    box-shadow: 0 3px 10px grey;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(238, 191, 7); 
+}
+.hidden{
+    display: none;
+}
+.player-active{
+    background: linear-gradient(#525456, #55585b, rgb(20, 19, 19)); 
+}
+.player-winner{
+    background-color: #2f2f2f;
+}

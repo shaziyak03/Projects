@@ -1,7 +1,8 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: white;
-} 
+    background: white;
+}
+ 
 .container{
     display: flex;
     justify-content: space-between;
@@ -17,8 +18,8 @@ body{
 .project{
     margin-top: 20px;
     position: relative;
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 240px;
     border: 1px solid white;
     border-radius: 20px;
     background-color: white;
@@ -34,7 +35,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background: rgb(21, 21, 21);
     color: white;
     width: 100%;
     padding: 10px 12px;
@@ -42,6 +43,7 @@ body{
 }
 .btnProject:hover{
     cursor: pointer;
+    opacity: 92%;
 }
 .btnProject:active{
     transform: translateY(3px);
