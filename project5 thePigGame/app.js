@@ -54,7 +54,7 @@ holdBtn.addEventListener('click', function(){
  document.getElementById(`score-${activePlayer}`).textContent = scores[activePlayer];
 
  //2. player reaches maximum score.
- if(scores[activePlayer] >= 100){
+ if(scores[activePlayer] >= 10){
     document.querySelector(`.player-${activePlayer}`).classList.add('player-winner');
     document.querySelector(`.player-${activePlayer}`).classList.remove('player-active');
    document.getElementById(`name-${activePlayer}`).textContent = 'WINNER!';
@@ -74,6 +74,8 @@ newGame.addEventListener('click', function(){
     current0.textContent = 0;
     current1.textContent = 0;
     
+    name0.textContent = 'PLAYER 1';
+    name1.textContent = 'PLAYER 2';
     player0.classList.remove('player-winner');
     player1.classList.remove('player-winner');
     player0.classList.add('player-active');
