@@ -49,7 +49,7 @@ else{
 });
 
 holdBtn.addEventListener('click', function(){
- //1. the current score should gte added to the global score.
+ //1. the current score should get added to the global score.
  scores[activePlayer] += current;
  document.getElementById(`score-${activePlayer}`).textContent = scores[activePlayer];
 
