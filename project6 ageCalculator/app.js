@@ -5,6 +5,7 @@ function age(){
     let y1 = document.getElementById('year').value;
 
     let date = new Date(); //It creates a new Date object named date to get the current date.
+
     /*It retrieves the day, month, and year from the date object 
     and assigns them to variables d2, m2, and y2, respectively. */
     let d2 = date.getDate(); 
@@ -17,7 +18,6 @@ function age(){
     it means the birthday has not occurred yet in the current month. In this case, 
     it adjusts the d2 value by adding the number of days in the previous month (month[m2 - 1]) 
     and decreases the m2 value by 1.*/
-
     if(d1> d2){
         d2 = d2 + month[m2 - 1];
         m2 = m2 - 1;
