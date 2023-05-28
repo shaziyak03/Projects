@@ -4,6 +4,18 @@ body{
     background-size: cover;
     overflow-y: hidden;
 }
+.nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a img{
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+}
 
 .container{
     display: flex;
@@ -14,9 +26,9 @@ body{
 
 .mainHeading{
     color: white;
-    text-align: center;
-    padding: 8px;
+    margin: auto;
 }
+
 .project{
     margin: 1px;
     position: relative;
@@ -27,6 +39,7 @@ body{
     background-color: white;
     box-shadow: 0 2px 5px 0 black, 0 2px 8px 0 black;
 }
+
 .svg-icon{
     width: 50px;
     height: 50px;
@@ -43,25 +56,31 @@ body{
     padding: 10px 12px;
     border-radius: 20px;
 }
+
 .btnProject:hover{
     cursor: pointer;
     opacity: 92%;
     background: rgb(23, 22, 22);
 }
+
 .btnProject:active{
     transform: translateY(3px);
 }
+
 a.projectLink{
     color:white;
     font-size: 15px;
     text-decoration: none;
 }
+
 .lines{
     text-align: center;
 }
+
 .line1{
     color: black;
 }
+
 .line2{
     color: black;
 }
