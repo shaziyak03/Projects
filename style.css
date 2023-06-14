@@ -2,7 +2,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(#3E5151, #DECBA4);
     background-size: cover;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 .nav{
     width: 100%;
